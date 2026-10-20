@@ -1,9 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Minimoda" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+    <!-- Tema base de la aplicación. -->
+    <style name="Theme.Minimoda" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Color principal de la marca. -->
+        <item name="colorPrimary">@color/verde_boton</item>
+        <item name="colorPrimaryVariant">@color/verde_boton</item>
+        <item name="colorOnPrimary">@color/white</item>
 
-    <style name="Theme.Minimoda" parent="Base.Theme.Minimoda" />
+        <!-- Color secundario de la marca. -->
+        <item name="colorSecondary">@color/verde_boton</item>
+        <item name="colorSecondaryVariant">@color/verde_boton</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Color de la barra de estado. -->
+        <item name="android:statusBarColor">@color/verde_boton</item>
+
+        <!-- Color de fondo de la ventana (Rosado suave del prototipo). -->
+        <item name="android:windowBackground">@color/fondo_principal</item>
+    </style>
 </resources>

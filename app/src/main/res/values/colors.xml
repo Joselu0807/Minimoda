@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Colores base y texto -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="texto_principal">#FF1A1A1A</color>
+    <color name="texto_secundario">#FF757575</color>
+
+    <!-- Colores específicos del prototipo Minimoda -->
+    <color name="fondo_principal">#FFFADAD6</color>      <!-- Tono rosado suave de fondo -->
+    <color name="verde_boton">#FF5B6F5D</color>         <!-- Verde militar para categorías y banner -->
+    <color name="gris_buscador">#FFF4F4F4</color>       <!-- Gris claro para la barra de búsqueda -->
+    <color name="gris_barra_inferior">#FFE5E5E5</color> <!-- Gris para el menú de navegación inferior -->
 </resources>

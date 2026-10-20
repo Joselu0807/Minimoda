@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo para el título principal MINIMODA -->
+    <style name="TextAppearance.Minimoda.Titulo" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/texto_principal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Estilo para textos de botones y categorías -->
+    <style name="TextAppearance.Minimoda.Boton" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Estilo para los nombres de productos -->
+    <style name="TextAppearance.Minimoda.ProductoNombre" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/texto_principal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Estilo para los precios -->
+    <style name="TextAppearance.Minimoda.ProductoPrecio" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/texto_principal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

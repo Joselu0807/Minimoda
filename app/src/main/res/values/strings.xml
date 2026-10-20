@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Minimoda</string>
+    <string name="titulo_marca">MINIMODA</string>
+    <string name="hint_buscar">Buscar por prenda o talla ...</string>
+    <string name="cat_bebe">Bebé(0-2)</string>
+    <string name="cat_infantil">Infantil(3-6)</string>
+    <string name="cat_junior">Junior(7-12)</string>
+    <string name="banner_novedades">Colección Primavera - Novedades</string>
+    <string name="seccion_mas_vendidos">Los más vendidos</string>
+    <string name="producto_1_nombre">Conjunto Lino</string>
+    <string name="producto_1_precio">19,95€</string>
+    <string name="producto_2_nombre">Pelele algodón</string>
+    <string name="producto_2_precio">14,50€</string>
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_cesta">Cesta</string>
+    <string name="nav_perfil">Perfil</string>
 </resources>
