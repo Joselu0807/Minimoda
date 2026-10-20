@@ -20,6 +20,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- ICONO BOLSA DE COMPRA -->
+    <ImageView
+        android:id="@+id/iv_bolsa"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:src="@android:drawable/ic_menu_slideshow"
+        app:layout_constraintBottom_toBottomOf="@id/tv_titulo"
+        app:layout_constraintStart_toEndOf="@id/tv_titulo"
+        app:layout_constraintTop_toTopOf="@id/tv_titulo"
+        app:tint="@color/verde_boton" />
+
     <!-- BARRA DE BÚSQUEDA -->
     <EditText
         android:id="@+id/et_buscar"
@@ -210,7 +222,11 @@
             android:gravity="center"
             android:text="Inicio"
             android:textColor="@color/verde_boton"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:drawableTop="@android:drawable/ic_menu_compass"
+            android:drawableTint="@color/verde_boton"
+            android:paddingTop="6dp"
+            android:textSize="11sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -218,7 +234,11 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="Cesta"
-            android:textColor="@color/texto_secundario" />
+            android:textColor="@color/texto_secundario"
+            android:drawableTop="@android:drawable/ic_menu_agenda"
+            android:drawableTint="@color/texto_secundario"
+            android:paddingTop="6dp"
+            android:textSize="11sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -226,7 +246,10 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="Perfil"
-            android:textColor="@color/texto_secundario" />
+            android:textColor="@color/texto_secundario"
+            android:drawableTop="@android:drawable/ic_menu_myplaces"
+            android:drawableTint="@color/texto_secundario"
+            android:paddingTop="6dp"
+            android:textSize="11sp" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
